@@ -1,4 +1,4 @@
-variable "ami_id" { 
+variable "ami_id" {
 }
 
 variable "instance_type" {
@@ -10,3 +10,8 @@ variable "ec2_count" {
 }
 
 variable "subnet_id" {}
+
+variable "instance_name" {
+  type        = string
+  description = "Provide Instance Name"
+}
