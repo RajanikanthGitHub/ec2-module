@@ -12,8 +12,5 @@ variable "ec2_count" {
 
 variable "subnet_id" {}
 
-variable "instance_name" {
-  type        = string
-  description = "Provide Instance Name"
-}
+
 
